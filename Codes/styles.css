@@ -1,0 +1,187 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('bg.jpg');
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container{
+    padding:100px;
+    width:400px;
+    margin:0 auto;
+}
+
+.header{
+    width: 400px;
+    height:250px;
+    background-image: url('ferrari_458.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+.clear{
+    width : 30px;
+    height: 30px;
+    position: absolute;
+    left:20px;
+    top: 20px;
+}
+img{
+    height: 30px;
+    width: 30px;
+}
+.clear img:hover{
+    cursor: pointer;
+    transform: rotate(60deg);
+}
+
+.stars{
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    height: 80px;
+    width: 100px;
+}
+
+.quote1{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.quote2{
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#date{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#time{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Mulish';
+}
+
+.item img{
+    height: 25px;
+    width: 25px; 
+}
+
+.content{
+    width:400px;
+    height: 350px;
+    max-height:350px;
+    background-color: white;
+    overflow: auto;
+}
+
+.content ul{
+    padding:0;
+    margin:0;
+}
+.item{
+    width:400px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.item img.check{
+    position: absolute;
+    padding-left:5px;
+    left:8px;
+    top:10px;
+
+}
+
+.item img.circle{
+    position: absolute;
+    padding-left:5px;
+    left:8px;
+    top:10px;
+}
+
+
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:50px;
+    top:5px;
+    background-color: #FFF;
+    max-width:285px;
+}
+
+.item img.del{
+    position: absolute;
+    right:15px;
+    top:10px;
+}
+
+.item img.red-del{
+    position: absolute;
+    right:15px;
+    top:10px;
+    
+}
+
+.item img.del:hover{
+    cursor: pointer;
+    display: none;
+}
+
+.add-to-do{
+    position: relative;
+    width: 380px;
+    height:40px;
+    background-color: #FFF;
+    padding: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.add-to-do img{
+    position: absolute;
+    top:15px;
+}
+
+.add-to-do input{
+    position: absolute;
+    left: 50px;
+    height: 35px;
+    width: 310px;
+    background-color: transparent;
+    font-family: 'Titillium Web', sans-serif;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+}
+
